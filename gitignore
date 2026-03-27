@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# FAISS index (saved to Drive, not GitHub)
+*.bin
+*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model cache (too large for GitHub)
+models/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
