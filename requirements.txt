@@ -1,0 +1,21 @@
+# ============================================================
+# Truth-Aware Generative AI System — Dependencies
+# 100% free, no API keys required
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# Core
+numpy>=1.24
+faiss-cpu>=1.7.4
+
+# Embeddings + NLI (local HuggingFace models)
+sentence-transformers>=2.6
+transformers>=4.40
+torch>=2.1
+accelerate>=0.27      # speeds up HuggingFace model loading on GPU
+
+# Document loaders
+pymupdf>=1.23         # PDF
+python-docx>=1.1      # DOCX
+beautifulsoup4>=4.12  # URLs
+lxml>=5.0
